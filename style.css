@@ -226,10 +226,26 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.disco-img{
+.disco-background{
     background-color:black;
+    position:relative;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column (one per row) */
+    align-items: center; /* Center the items horizontally */
+    }
+
+
+.album-img{
+    flex-basis: 32%;
+    width:30%;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    padding: 100px;
+    
 }
 
-.drama-img{
+.albumsname{
     
 }
