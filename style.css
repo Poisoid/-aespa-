@@ -133,7 +133,7 @@ nav .fa{
     }
 }
 
-.course{
+.members{
     width:80%;
     margin: auto;
     text-align: center;
@@ -151,4 +151,16 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+
+.picture{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.picture img{
+    width: 100%;
 }
