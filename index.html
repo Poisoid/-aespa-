@@ -13,16 +13,17 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="/Users/terrence/Desktop/Immersive_Media/Interactive_Development/-aespa-/Images/Aespa_logo.jpg"></a>
-            <div class="nav-links">
-                <i class="fa fa-times"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
 
                 <ul>
                     <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
                     <li><a href="">DISCOGRAPHY</a></li>
                     <li><a href="">MERCHANDISE</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
 <div class="text-box">
@@ -30,10 +31,26 @@
         meaning of aespa is meeting another avatar of yourself <br>and experiencing a new world,
         "you always perform at your best despite fear and doubts", and "beauty & aesthetic".
     </p>
-    <a href="" class="hero-btn">Visit us to know more!</a>
+    <a href="" class="members-button">Click here to know more about us</a>
 </div>
 
-    </section>
+</section>
+
+
+
+<!--javascript for the menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+}
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+}
+
+</script>
 
 
 </body>
