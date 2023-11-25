@@ -216,12 +216,20 @@ p{
     transform: translate(-50%, -50%);
 }
 
-.text-box3 {
+h1 {
     position: absolute;
     margin: auto;
-    top: 15%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
+}
+
+.disco-img{
+    background-color:black;
+}
+
+.drama-img{
+    
 }
