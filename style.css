@@ -73,28 +73,15 @@ nav img{
 
 .text-box p{
     margin: 10px 0 40px;
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.text-box2{
+    margin: 10px 0 40px;
     font-size: 18px;
     color: #fff;
-
-}
-
-.members-button{
-    display:inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-
-}
-
-.members-button:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 0.45s;
 
 }
 
@@ -108,7 +95,7 @@ nav .fa{
         display: block;
     }
 
-    .nav-links{
+    .nav-links{ 
         position: absolute;
         background: #f44336;
         height: 100vh;
@@ -131,6 +118,12 @@ nav .fa{
     .nav-links ul{
         padding: 14px;
     }
+
+    .mem-pic img{
+        width: 100%;
+    
+    }
+
 }
 
 .members{
@@ -185,11 +178,11 @@ p{
     width: 100%;
     font-weight: 500;
     color: #fff;
-    font-size: 26px;
+    font-size: 20px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    position:absolute;
+    position:inherit;
     opacity: 0;
     transition: 0.5s;
 }
@@ -208,3 +201,13 @@ p{
     position: relative;
 }
 
+
+.row {
+    position:relative;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column (one per row) */
+    align-items: center; /* Center the items horizontally */
+}
+
+
+ 
