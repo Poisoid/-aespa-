@@ -6,18 +6,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section class="header">
+        <div class="video-container">
+            <iframe width="1000" height="600" src="https://www.youtube.com/embed/D8VEhcPeSlc?si=myTXGMZFSZByMRE_"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="text-box3">
+            <h1>DISCOGRAPHY</h1>
+        </div>
+
         <nav>
             <a href="index.html"><img src="/Users/terrence/Desktop/Immersive_Media/Interactive_Development/-aespa-/Images/Aespa_logo.jpg"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/D8VEhcPeSlc?si=vLOls5S0jS8n4BF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="Discography.html">DISCOGRAPHY</a></li>
@@ -26,3 +31,20 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+    </body>
+</section>
+
+<!--javascript for the menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+}
+
+    function hideMenu() {
+        navLinks.style.right = "-250px";
+}
+
+</script>

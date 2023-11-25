@@ -201,7 +201,6 @@ p{
     position: relative;
 }
 
-
 .row {
     position:relative;
     display: flex;
@@ -209,5 +208,20 @@ p{
     align-items: center; /* Center the items horizontally */
 }
 
+.video-container {
+    position: absolute;
+    margin: auto;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
- 
+.text-box3 {
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
