@@ -361,13 +361,24 @@ nav .fa{
    
 }
 
+.image-containeraccessories{
+    display: flex; /* Images will be in a row */
+}
 
+.image-containeraccessories img {
+    height: 500px;
+    width: 500px;
+    margin-right: 20px; /* Adjust the margin between images */
+}
 
-
-
-
-
-
+.text-containeraccessories {
+    display: flex;
+    /* Text will be in a column */
+    flex-direction: row; /* Arrange text in a column */
+    align-items: center; /* Center the items horizontally in the column */
+    text-align: center; /* Center text within the container */
+    
+}
 
 
 .description {
