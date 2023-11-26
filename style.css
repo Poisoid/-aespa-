@@ -251,7 +251,7 @@ nav .fa{
 
 .album-img{
     flex-basis: 32%;
-    width:30%;
+    width:28%;
     border-radius: 0px;
     margin-bottom: 30px;
     position: relative;
@@ -264,7 +264,7 @@ nav .fa{
 
     position: absolute;
     margin: auto;
-    left: 48%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
@@ -371,8 +371,8 @@ nav .fa{
 }
 
 .buy-now-btn:hover {
-    color:  rgba(237,29,36,0.7);
-    outline-color: rgba(237,29,36,0.7);
+    color:  rgba(225,6,0,0.7);
+    outline-color: rgba(225,6,0,0.7);
  
 }
 
