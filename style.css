@@ -124,6 +124,15 @@ nav .fa{
     
     }
 
+    .album-img img{
+        width: 100%
+    }
+
+    .video-container {
+        size: 100%;
+    }
+
+
 }
 
 .members{
@@ -133,15 +142,17 @@ nav .fa{
     padding-top: 100px;
 }
 
-h1{
+.members h1{
     color: #fff;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 600;
+    top: 70;
+
 }
 
-p{
+.members p{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -216,7 +227,7 @@ p{
     transform: translate(-50%, -50%);
 }
 
-h1 {
+.main-text h1 {
     position: absolute;
     margin: auto;
     top: 17%;
@@ -224,6 +235,7 @@ h1 {
     transform: translate(-50%, -50%);
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 
 
@@ -248,14 +260,34 @@ h1 {
     
 }
 
-.albumsname h1{
+.disco-background h1{
 
     position: absolute;
     margin: auto;
-    top: 97%;
+    top: 50%;
     left: 48%;
     transform: translate(-50%, -50%);
-    font-weight: 200;
+    font-weight: 300;
     font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-size: 45px;
 
+}
+
+.socialsbg{
+    background-color: white;
+
+}
+
+.socialsicon {
+text-align: center; /* Align icons to the center */
+font-size: 20px; /* Adjust the font size of icons */
+padding: 50px;
+display: inline-block;
+margin: 0 10px 0 0;
+ 
+}
+
+.socialsbg h2{
+    text-align:center;
 }
