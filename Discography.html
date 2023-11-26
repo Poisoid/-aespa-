@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
 </head>
 <body>
     <section class="header">
@@ -41,7 +43,7 @@
 
         <div class="album-img">
 
-           
+            
             <a href="https://aespa.lnk.to/dramaminialbum"><img src="/Users/terrence/Desktop/Immersive_Media/Interactive_Development/-aespa-/Images/aespa_M04_Drama_DC-.png"></a><br><br><br><br><br><br><br><br>
             
 
@@ -67,6 +69,24 @@
 
 </section>
 
+<section>
+
+    <div class="socialsbg">
+        <h2>Socials</h2>
+    <div class="socialsicon">
+        <a href="https://www.facebook.com/aespa.official"><i class="fa-brands fa-facebook-f fa-2xl" style="color: #93c4c9;"></i></a>
+        <a href="https://www.instagram.com/aespa_official/?hl=en"><i class="fa-brands fa-instagram fa-2xl" style="color: #9ec4c9;"></i></a>
+        <a href="https://twitter.com/aespa_official?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter fa-2xl" style="color: #9ec4c9;"></i></i></a>
+        <a href="https://www.tiktok.com/@aespa_official"><i class="fa-brands fa-tiktok fa-2xl" style="color: #9ec4c9;"></i></a>
+        <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg"><i class="fa-brands fa-youtube fa-2xl" style="color: #9ec4c9;"></i></a>
+        <a href="https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"><i class="fa-brands fa-itunes fa-2xl" style="color: #9ec4c9;"></i></a>
+        <a href="https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"><i class="fa-brands fa-spotify fa-2xl" style="color: #9ec4c9;"></i></a>
+    </div>
+</div>
+
+</section>
+
+
 
 
 <!--javascript for the menu-->
@@ -83,6 +103,26 @@
 }
 
 </script>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+      $(".socialsicon a").hover(
+        function() {
+          $(this).find("i").css("color", "#ffffff");
+        },
+        function() {
+          $(this).find("i").css("color", "#9ec4c9");
+        }
+      );
+    });
+</script>
+
+
+
+
+
 
 </html>
 </body>
