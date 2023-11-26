@@ -343,6 +343,32 @@ nav .fa{
    
 }
 
+.image-containermyworld{
+    display: flex; /* Images will be in a row */
+}
+
+.image-containermyworld img {
+    height: 500px;
+    width: 500px;
+    margin-right: 20px; /* Adjust the margin between images */
+}
+
+.text-containermyworld {
+    display: flex; /* Text will be in a row */
+    flex-direction: row; /* Arrange text in a row */
+    align-items: center; /* Center the items vertically in the row */
+    margin-bottom: 20px; /* Add margin between text row and button */
+   
+}
+
+
+
+
+
+
+
+
+
 
 .description {
     text-align: center;
