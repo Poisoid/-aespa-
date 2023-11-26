@@ -230,7 +230,7 @@ nav .fa{
 .main-text h1 {
     position: absolute;
     margin: auto;
-    top: 17%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 200;
