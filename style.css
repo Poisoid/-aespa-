@@ -7,12 +7,22 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:url(Images/background.jpg);
+    background-image:url(Images/blackbackground.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 
+
+
 }
+
+.header1{
+    background-image:url(Images/blackbackground.jpg);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+
 
 nav{
     display: flex;
@@ -393,7 +403,6 @@ nav .fa{
     text-align: center; /* Center text within the container */
    
 }
-
 
 .description {
     text-align: center;
