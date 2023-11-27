@@ -119,6 +119,10 @@ nav .fa{
         padding: 14px;
     }
 
+
+    .mem-pic{
+        flex-basis: 60%;
+    }
     .mem-pic img{
         width: 100%;
     
