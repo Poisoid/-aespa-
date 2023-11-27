@@ -277,6 +277,10 @@ nav .fa{
     position: relative;
     overflow: hidden;
     padding: 100px;
+    position:relative;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column (one per row) */
+    align-items: center; /* Center the items horizontally */
     
 }
 
