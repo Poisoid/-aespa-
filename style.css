@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:url(/Users/terrence/Desktop/Immersive_Media/Interactive_Development/-aespa-/Images/background.jpg);
+    background-image:url(Images/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -90,7 +90,7 @@ nav .fa{
 }
 
 @media(max-width: 700px){
-    
+
     .nav-links ul li{
         display: block;
     }
@@ -210,7 +210,7 @@ nav .fa{
 .members{
     min-height: 100vh;
     width: 100%;
-    background-image:url(/Users/terrence/Desktop/Immersive_Media/Interactive_Development/-aespa-/Images/city.png);
+    background-image:url(Images/city.png);
     background-position: center;
     background-size: cover;
     position: relative;
