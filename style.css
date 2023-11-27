@@ -231,7 +231,18 @@ nav .fa{
     transform: translate(-50%, -50%);
 }
 
-.main-text h1 {
+.disco-text h1 {
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.merch-text h1 {
     position: absolute;
     margin: auto;
     top: 10%;
@@ -241,6 +252,11 @@ nav .fa{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
+
+
+
+
+
 
 
 
