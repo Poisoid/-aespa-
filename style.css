@@ -90,7 +90,7 @@ nav .fa{
 }
 
 @media(max-width: 700px){
-
+    
     .nav-links ul li{
         display: block;
     }
@@ -252,13 +252,6 @@ nav .fa{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
-
-
-
-
-
-
-
 
 .disco-background{
     background-color:black;
